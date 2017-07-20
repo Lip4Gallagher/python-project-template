@@ -3,10 +3,11 @@
 *.sw[op]
 .Python
 venv/
+.venv/
+build/
+dist/
 *.egg*
 *.py[cod]
-*.stamp
-.venv/
 .coverage
 .tox/
 docs/_build/

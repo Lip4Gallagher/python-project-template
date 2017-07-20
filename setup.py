@@ -10,10 +10,6 @@ with open(os.path.join(here, 'README.rst')) as f:
 
 REQUIREMENTS = [
     'requests>=2.6.0',
-    'mock>=1.0.1',
-    'nose>=1.3.4',
-    'nose-cov',
-    'nose-mocha-reporter',
     'coverage',
     'tox>=1.9.0',
     'flake8>=2.4.0',
@@ -36,7 +32,7 @@ setup(
     classifiers=[
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.6',
     ],
     entry_points={
         'console_scripts': ['demo = demo.demo_handler:main']
